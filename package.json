@@ -1,0 +1,23 @@
+{
+  "name": "pkg-demo",
+  "packageManager": "yarn@3.2.3",
+  "devDependencies": {
+    "pkg": "5.8.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.4"
+  },
+  "bin": "./server/index.js",
+  "scripts": {
+    "build": "vite build ./client",
+    "docker:build": "docker build . --build-arg \"JFROG_NPM_TOKEN=${JFROG_NPM_TOKEN}\" --tag fst/pkg-poc:dev",
+    "docker:run": "docker run --rm -it --init -p 3000:3000 fst/pkg-poc:dev"
+  },
+  "pkg": {
+    "scripts": "server/**/*.js",
+    "assets": "client/dist/**/*",
+    "outputPath": "dist"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
