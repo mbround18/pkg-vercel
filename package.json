@@ -1,6 +1,6 @@
 {
   "name": "pkg-demo",
-  "packageManager": "yarn@3.2.3",
+  "packageManager": "yarn@3.2.4",
   "devDependencies": {
     "pkg": "5.8.0",
     "typescript": "^4.8.4",
