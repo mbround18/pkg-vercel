@@ -4,7 +4,7 @@
   "devDependencies": {
     "pkg": "5.8.0",
     "typescript": "4.8.4",
-    "vite": "3.2.1"
+    "vite": "3.2.2"
   },
   "bin": "./server/index.js",
   "scripts": {
