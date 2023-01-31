@@ -3,7 +3,7 @@
   "packageManager": "yarn@3.3.1",
   "devDependencies": {
     "pkg": "5.8.0",
-    "typescript": "4.9.4",
+    "typescript": "4.9.5",
     "vite": "3.2.5"
   },
   "bin": "./server/index.js",
