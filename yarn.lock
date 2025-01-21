@@ -1967,7 +1967,7 @@ __metadata:
     express: 4.21.2
     pkg: 5.8.1
     typescript: 4.9.5
-    vite: 4.5.8
+    vite: 4.5.9
   bin:
     pkg-demo: ./server/index.js
   languageName: unknown
@@ -2679,9 +2679,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:4.5.8":
-  version: 4.5.8
-  resolution: "vite@npm:4.5.8"
+"vite@npm:4.5.9":
+  version: 4.5.9
+  resolution: "vite@npm:4.5.9"
   dependencies:
     esbuild: ^0.18.10
     fsevents: ~2.3.2
@@ -2715,7 +2715,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: c8af5fa4685b8e2ff0e3bc6329a1168cf43942ac78f0ef6d2b694eec51903de42d213e0dd8450942056e9a37da495f8ddecebad91fd7dc1b433b1de3e666daec
+  checksum: ebe21bd4aab9e4dac38e77971c9c506f1df28dbf1afb7962894edeeac3a8a57fdc547708fa977ba798c4666f3204ec36a164110a9377fe78b7efa894b7b6c5ff
   languageName: node
   linkType: hard
 
